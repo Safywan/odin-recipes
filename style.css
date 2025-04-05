@@ -1,20 +1,47 @@
-/* Beautify the heading */
-p {
+.recipes p {
     color: lightcoral;
     font-size: x-large;
     font-weight: 600;
     text-transform: capitalize;
+    margin-bottom: 3px;
 }
-
-h1 {
+.rice h3{
+    color: blue;
+    margin-bottom: -1%;
+    
+}
+.recipes h1 {
     color: aquamarine;
     text-align: center;
     background-color: blue;
 }
 
-.recipes {
+.rice h1 {
+    color: brown;
+    background-color: white;
+    text-align: center;
+    margin-bottom: auto;
+
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: auto;
+    border-radius: 8%;
+}
+
+.recipes a {
     color: rgb(54, 181, 228);
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
+}
+
+body a{
+    text-decoration: none;
+    color: darkorange;
+    font-style: italic;
+    font-size: 30px;
+
 }
