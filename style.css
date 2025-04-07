@@ -7,12 +7,13 @@ body {
     font-size: x-large;
     font-weight: 600;
     text-transform: capitalize;
-    margin-bottom: 3px;
+    margin-bottom: auto;
     margin-top: auto;
 }
 
 .rice h3,
-.mint h3 {
+.mint h3,
+.curry h3 {
     color: blue;
     margin-bottom: auto;
     margin: auto;
@@ -27,10 +28,18 @@ body {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+    animation-name: heading;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes heading {
+    from{color: rgb(127, 165, 255);}
+    to{color:blueviolet;}
 }
 
 .rice h1,
-.mint h1 {
+.mint h1,
+.curry h1 {
     color: brown;
     text-align: center;
     margin-bottom: auto;
@@ -49,4 +58,15 @@ img {
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
+}
+
+.rice a,
+.mint a,
+.curry a {
+    color: orange;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 43px;
+    display: inline-block;
+
 }
