@@ -1,24 +1,37 @@
+body {
+    background-color: hsla(89, 43%, 51%, 0.3);
+}
+
 .recipes p {
     color: lightcoral;
     font-size: x-large;
     font-weight: 600;
     text-transform: capitalize;
     margin-bottom: 3px;
-}
-.rice h3{
-    color: blue;
-    margin-bottom: -1%;
-    
-}
-.recipes h1 {
-    color: aquamarine;
-    text-align: center;
-    background-color: blue;
+    margin-top: auto;
 }
 
-.rice h1 {
+.rice h3,
+.mint h3 {
+    color: blue;
+    margin-bottom: auto;
+    margin: auto;
+
+}
+
+.recipes h1 {
+    color: rgb(127, 165, 255);
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.rice h1,
+.mint h1 {
     color: brown;
-    background-color: white;
     text-align: center;
     margin-bottom: auto;
 
@@ -36,12 +49,4 @@ img {
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
-}
-
-body a{
-    text-decoration: none;
-    color: darkorange;
-    font-style: italic;
-    font-size: 30px;
-
 }
